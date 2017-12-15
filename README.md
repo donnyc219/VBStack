@@ -41,7 +41,22 @@ var name = stack.pop()
 The returned value is optinal type. The element is then removed from the stack.
 
 ## Peek
-The "peek" the last element in the stack (like Java peek method in Stack). The element is not removed.
+"peek" the last element in the stack (like Java peek method in Stack). The element is not removed.
 ```
 var name = stack.peek()
 ```
+
+## Clear the stack
+The stack will be cleared, remaining an empty stack
+```
+stack.clear()
+```
+
+## Print the stack
+To see what elements are in the stack
+```
+if let description = stack.description {
+    print(description)
+}
+```
+The rightmost element is the one which will be popped first
