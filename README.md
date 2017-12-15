@@ -19,7 +19,7 @@ var stack = Stack<String>()
 2. Initialize with an array
 
 ```
-var stack  = Stack<String>(elements: ["New York", "Chicago", "Atlanta"])
+var stack  = VBStack<String>(elements: ["New York", "Chicago", "Atlanta"])
 ```
 
 ## Push
