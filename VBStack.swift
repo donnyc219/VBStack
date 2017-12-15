@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Stack<T> {
+class VBStack<T> {
     private var array: [T]? = []
     public var count: Int {
         get {
