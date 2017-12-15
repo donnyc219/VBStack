@@ -13,7 +13,7 @@ Feel free to use it, modify it or do anything with it.
 1. Initialize with nothing
 
 ```
-var stack = Stack<String>()
+var stack = VBStack<String>()
 ```
 
 2. Initialize with an array
