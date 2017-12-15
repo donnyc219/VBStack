@@ -38,7 +38,7 @@ stack.push(elements: ["New York", "Chicago", "Atlanta"])
 ```
 var name = stack.pop()
 ```
-The returned value is optinal type. The element is then removed from the stack.
+The returned value is optional type. The element is then removed from the stack.
 
 ## Peek
 "peek" the last element in the stack (like Java peek method in Stack). The element is not removed.
